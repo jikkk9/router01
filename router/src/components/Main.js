@@ -7,7 +7,7 @@ function Main({ data }) {
   let navigate = useNavigate();
   return (
     <>
-      <section className='Main'>
+      <section className='Main inner'>
         <MainList data={data} />
       </section>
     </>

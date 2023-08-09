@@ -1,4 +1,149 @@
+:root {
+  font-size: 15px;
+  font-family: "DM Sans";
+}
+
+.inner {
+  max-width: 1240px;
+  border: 1px solid rgb(145, 145, 145);
+  ;
+  width: calc(100% - 2rem);
+  margin: auto;
+}
+
+
 .header,
 .footer {
   background-color: rgb(145, 145, 145);
+
+}
+
+.header ul {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.header li {
+  padding: 20px;
+}
+
+.headLine {
+  display: flex;
+  padding: 50px;
+}
+
+.headLine h3 {
+  margin-right: 30px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.headLine Link {
+  background-color: aquamarine;
+}
+
+.MainList {
+
+  width: 100%;
+}
+
+.MainList ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.MainList ul li {
+  border: 1px solid #c9c9c9;
+  width: 22.33%;
+  box-sizing: border-box;
+  padding: 30px 30px;
+  /* 예: 좌우 10px의 패딩 */
+  margin: 30px 30px;
+  border-radius: 10px;
+}
+
+.MainList img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.imgCon {
+  position: relative;
+  height: 380px;
+  overflow: hidden;
+}
+
+.imgCon .title {
+  font-size: 13px;
+  padding-top: 10px;
+  color: #979797;
+  font-weight: 600;
+}
+
+.imgCon .price {
+  font-size: 17px;
+  font-weight: 600px;
+  /* padding-top: 10px; */
+  padding-bottom: 10px;
+  font-weight: 500;
+  color: #222;
+
+}
+
+
+.imgCon .category {
+  background-color: red;
+  display: inline-block;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.imgCon .imgLabel {
+  background-color: black;
+  display: block;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  position: absolute;
+  top: 100%;
+  cursor: pointer;
+
+
+
+
+}
+
+.imgCon:hover .imgLabel {
+  top: 90%;
+}
+
+.imgCon .discount {
+  color: #35c5f0;
+  margin-right: 10px;
+}
+
+.imgCon_box {
+  display: flex;
+  margin-top: 1rem;
+  line-height: 20px;
+
+
+}
+
+.imgCon div {
+  overflow: hidden;
+}
+
+.imgCon:hover img {
+  transform: scale(1.2);
+  transition: 0.5S;
 }
