@@ -1,0 +1,58 @@
+.AllLIst {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.AllLIst li {
+  width: 250px;
+  padding: 1rem 1rem;
+  margin: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 1rem;
+
+
+}
+
+.AllLIst li b {
+  width: 250px;
+}
+
+.AllLIst li:hover img {
+  cursor: pointer;
+
+  transition: 0.5s;
+
+}
+
+
+.AllLIst img {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+
+.AllLIst h2 {
+  padding: 0.5rem 0;
+  font-size: 17px;
+  font-weight: 600;
+
+}
+
+.AllLIst div {
+  display: flex;
+
+}
+
+.AllLIst div p {
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.3rem;
+
+}
+
+.AllLIst div p:nth-of-type(1) {
+  background-color: red;
+  color: #fff;
+
+}

@@ -12,11 +12,7 @@
 }
 
 
-.header,
-.footer {
-  background-color: rgb(145, 145, 145);
 
-}
 
 .header ul {
   display: flex;

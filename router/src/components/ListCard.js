@@ -23,8 +23,6 @@ function ListCard({ item }) {
           장바구니에 담기
         </p>
       </div>
-
-
     </>
   )
 

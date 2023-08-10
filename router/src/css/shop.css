@@ -1,0 +1,24 @@
+.Shop {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.Shop .left {
+  width: 30%;
+  border: 1px solid #ddd;
+  text-align: center;
+
+}
+
+.Shop .left li {
+  padding: 0.3rem;
+  cursor: pointer;
+}
+
+.Shop .right {
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.Shop div {}

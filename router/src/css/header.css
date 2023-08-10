@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+
+.header .logo {
+  width: 120px;
+  padding-left: 1rem;
+}
+
+.header .logo img {
+  width: 100%;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.header nav .gnb {
+  border-right: 1px solid #222;
+}
+
+.header nav .gnb a {
+  color: #232323;
+  padding: 0.5rem 2rem;
+  /* border: 1px solid #000; */
+}
+
+.header nav .gnb a.on {
+  color: #fff;
+  background-color: red;
+  transition: 0.5s;
+}
+
+.header nav .icon {
+  margin-left: 1rem;
+}
+
+.header nav .icon a {
+  margin-right: 1rem;
+}

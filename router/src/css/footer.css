@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem;
+  flex-direction: column;
+}
+
+.footer .top {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  border-top: 1px solid #ddd;
+  margin-top: 1rem;
+}
+
+.footer .top nav a {
+  display: inline-block;
+  padding: 0 0.5rem;
+}
+
+.footer .top div {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 2rem;
+}
+
+.footer .top div p {
+  margin-right: 1rem;
+}
+
+.footer .bottom {
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .bottom .icon i {
+  padding: 0 0.5rem;
+}
