@@ -11,6 +11,11 @@
 
 }
 
+.Shop .left div {
+  display: flex;
+  justify-content: center;
+}
+
 .Shop .left li {
   padding: 0.3rem;
   cursor: pointer;
